@@ -22,7 +22,7 @@
 
 # One Docker container will be configured for each IP address in $ips
 subnet="172.13.0.0/16"
-ips=("172.13.0.2" "172.13.0.3" "172.13.0.4")
+ips=("172.13.0.2" "172.13.0.3" "172.13.0.4" "172.13.0.5")
 
 # Docker image name
 image=quorum
