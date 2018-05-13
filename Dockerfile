@@ -51,7 +51,8 @@ RUN apt-get update && \
     apt-get update && \
     apt-get install -y --no-install-recommends \
         libdb-dev \
-        libsodium-dev \
+        vim \
+	libsodium-dev \
         libtinfo-dev \
         solc && \
     rm -rf /var/lib/apt/lists/*
