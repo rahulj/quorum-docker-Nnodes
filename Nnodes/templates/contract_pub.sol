@@ -3,7 +3,7 @@ pragma solidity ^0.4.1;
 contract simplestorage { 
     uint public storedData; 
     
-    function simplestorage(uint initVal) public { 
+    constructor (uint initVal) public {
         storedData = initVal;
     } 
     
